@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Centros Universitarios</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="../js/usuario.js"></script>
+</head>
+
+<body class="body-centros" onload="mostrarOpcionesDisponibles()">
+  <header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand">UMG CUILAPA</a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse2">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse2">
+          <div class="navbar-nav" id="navPages">
+            <!-- <a href="../index.html" class="nav-item nav-link active">Inicio</a>
+            <a href="../pages/Facultades.html" class="nav-item nav-link">Facultades</a>
+            <a href="../pages/AcercaDe.html" class="nav-item nav-link">Acerca de nosotros</a>
+            <a href="../pages/Centros.html" class="nav-item nav-link">Centros Universitarios</a>
+            <a href="../pages/contacto.html" class="nav-item nav-link">Contactos</a>
+            <a href="../pages/Promociones.html" class="nav-item nav-link">Promociones</a>
+            <a href="../pages/TipoUsuario.html" class="nav-item nav-link">Ingresar</a> -->
+          </div>
+          <form class="d-flex ms-auto">
+            <button type="submit" class="btn btn-outline-light"><img src="../img/3.jpeg" width="50"></IMg></button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+
+  <div class="container">
+    <div class="row row-flex">
+      <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+        <div class="price-table pt-bg-blue">
+          <div>
+            <span>Region Metropolitana</span>
+          </div>
+          <ul>
+            <li>
+              <h4>Amatitlan</h4>
+              Tel.1345 6789
+            </li>
+            <li>
+              <h4>San Jose Pinula</h4>
+              Tel.3456 6789
+            </li>
+            <li>
+              <h4>Boca del monte</h4>
+              Tel.4536 7868
+            </li>
+            <li>
+              <h4>Chinautla</h4>
+              Tel.2286 6367
+            </li>
+            <li>
+              <h4>Florida Zona 19</h4>
+              Tel.2219 7223
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+        <div class="price-table pt-bg-blue">
+          <div>
+            <span>Region Sur-Oriente</span>
+          </div>
+          <ul>
+            <li>
+              <h4>Santa Rosa-Cuilapa</h4>
+              Tel.7886 5802
+            </li>
+            <li>
+              <h4>Jutiapa</h4>
+              Tel.7844 3663
+            </li>
+            <li>
+              <h4>Jalapa</h4>
+              Tel.7922 3665
+            </li>
+            <li>
+              <h4>Nueva Santa Rosa</h4>
+              Tel.7888 9816
+            </li>
+            <li>
+              <h4>Chiquimullia</h4>
+              Tel.7884 9673
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+        <div class="price-table pt-bg-blue">
+          <div>
+            <span>Region Nor-Oriente</span>
+          </div>
+          <ul>
+            <li>
+              <h4>Puerto Barrios</h4>
+              Tel.7948 5070
+            </li>
+            <li>
+              <h4>Izabal-El estor</h4>
+              Tel.7949 7462
+            </li>
+            <li>
+              <h4>Morales</h4>
+              Tel.7948 9499
+            </li>
+            <li>
+              <h4>Chiquimula</h4>
+              Tel.7942 0413
+            </li>
+            <li>
+              <h4>Zacapa</h4>
+              Tel.7941 2000
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+        <div class="price-table pt-bg-blue">
+          <div>
+            <span>Region Central</span>
+          </div>
+          <ul>
+            <li>
+              <h4>Chimaltenango</h4>
+              Tel.7840 4934
+            </li>
+            <li>
+              <h4>Escuintla</h4>
+              Tel.7889 7383
+            </li>
+            <li>
+              <h4>Nueva Concepcion</h4>
+              Tel.4573 7661
+            </li>
+            <li>
+              <h4>Santa Lucia Cotzumalguapa</h4>
+              Tel.7882 1074
+            </li>
+            <li>
+              <h4>Sacatepeques-Antigua Guatemala</h4>
+              Tel.7832 6909
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+        <div class="price-table pt-bg-blue">
+          <div>
+            <span>Region Sur-Occidente</span>
+          </div>
+          <ul>
+            <li>
+              <h4>Quetzaltengo</h4>
+              Tel.7937 8787
+            </li>
+            <li>
+              <h4>Coatepeque</h4>
+              Tel.7775 7048
+            </li>
+            <li>
+              <h4>Retalhuleu</h4>
+              Tel.7771 5466
+            </li>
+            <li>
+              <h4>Solola</h4>
+              Tel.7662 4687
+            </li>
+            <li>
+              <h4>Totonicapan</h4>
+              Tel.7666 2834
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+        <div class="price-table pt-bg-blue">
+          <div>
+            <span>Region Nor-Occidente</span>
+          </div>
+          <ul>
+            <li>
+              <h4>Quiche</h4>
+              Tel.7755 2895
+            </li>
+            <li>
+              <h4>Huehuetenango</h4>
+              Tel.7964 1199
+            </li>
+            <li>
+              <h4>Jacaltenango-Huehuetenango</h4>
+              Tel.7964 1199
+            </li>
+            <li>
+              <h4>Democracia-Huehuetenango</h4>
+              Tel.7964 1199
+            </li>
+            <li>
+              <h4>Nenton-Huehuetenango</h4>
+              Tel.7964 1199
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+        <div class="price-table pt-bg-blue">
+          <div>
+            <span>Region Norte</span>
+          </div>
+          <ul>
+            <li>
+              <h4>Alta Verapaz-Coban</h4>
+              Tel.7952 1041
+            </li>
+            <li>
+              <h4>Baja Verapaz-Salama</h4>
+              Tel.7940 2485
+            </li>
+            <li>
+              <h4>Peten</h4>
+              Tel.7926 2303
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="mt-5 pt-5 pb-5 footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-xs-12 about-company">
+          <h2>UNIVERSIDAD MARIANO GALVEZ</h2>
+          <p class="pr-5 text-white-50">Porque «todo mortal es como la hierba, y toda su gloria como la flor del campo;
+            la hierba se seca y la flor se cae, pero la palabra del Señor permanece para siempre». Y esta es la palabra
+            del evangelio que se les ha anunciado a ustedes.” 1 Pedro 1:24-25</p>
+          <p><a href="#"><i class="fa fa-facebook-square mr-1"></i></a><a href="#"><i
+                class="fa fa-linkedin-square"></i></a></p>
+        </div>
+        <div class="col-lg-3 col-xs-12 links">
+          <h4 class="mt-lg-0 mt-sm-3">UNIVERSIDAD</h4>
+          <ul class="m-0 p-0">
+            <li>Acerca de nosotros</li>
+            <li>Facultades</li>
+            <li>Autoridades</li>
+            <li>50 Aniversario</li>
+            <li>Directorio</li>
+            <li>Centros Universitarios</li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-xs-12 location">
+          <h4 class="mt-lg-0 mt-sm-4">Location</h4>
+          <p>Universidad Mariano Galvez de Guatemala</p>
+          <p class="mb-0"><i class="fa fa-phone mr-3"></i>Sede Cuilapa, Santa Rosa</p>
+          <p class="mb-0"><i class="fa fa-phone mr-3"></i>2233 4567</p>
+          <p><i class="fa fa-envelope-o mr-3"></i>cuilapa@umg.edu.gt</p>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col copyright">
+          <p class=""><small class="text-white-50">© 2019. All Rights Reserved.</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

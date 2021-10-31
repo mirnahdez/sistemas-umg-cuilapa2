@@ -1,0 +1,147 @@
+<html>
+
+<head>
+  <title>HTML Visual Code</title>
+  <meta charset="utf-8" />
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <script src="../js/usuario.js"></script>
+</head>
+
+<body id="bodyIngresar" class="cuerpo">
+  <header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand">UMG CUILAPA</a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse2">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse2">
+          <div class="navbar-nav">
+            <img src="../img/logoumg2.png" width="100" height="50"></IMg>
+            <a href="../index.html" class="nav-item nav-link active">Inicio</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <section class="fregistrar">
+
+    <aside class=" grid-leftaside">
+      <h3></h3>
+    </aside>
+
+    <aside class="grid-rigthtaside">
+      <h3>.</h3>
+    </aside>
+
+    <main class="grid-login">
+      <h3>Ingresar</h3>
+      <form class="form-login" id="form">
+
+        <div id="transaccion">
+          <label for="tipoUsuario">Tipo Usuario</label>
+          <select id="tipoUsuario" name="tipoUsuario" required class="form-select">
+            <option value="1">Estudiante</option>
+            <option value="2">Catedrático</option>
+            <option value="3">Gestor de Contenido</option>
+            <option value="4">Auxiliares</option>
+          </select>
+        </div>
+        <br>
+        <div>
+          <input class="gridD" type="text" name="correoUsuario" id="correoUsuario" placeholder="Correo Electronico"
+            required autofocus>
+        </div>
+
+        <div>
+          <input class="gridD" type="password" name="passwordUsuario" id="passwordUsuario" placeholder="Contraseña"
+            required minlength="4" maxlength="20">
+        </div>
+
+
+        <div>
+          <input class="botons" type="button" value="Login" type="submit" onclick='validarUsuario()'>
+        </div>
+
+        <!-- <nav>No tienes cuenta aun? <a style="color:blue" href="Registrarte.html" target="_blank"> Registrarse </a>
+            </nav> -->
+        <div id='error'>
+
+
+        </div>
+      </form>
+
+
+
+
+    </main>
+
+    <!-- Blog End -->
+    <div class="mt-5 pt-5 pb-5 footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-xs-12 about-company">
+            <h2>UNIVERSIDAD MARIANO GALVEZ</h2>
+            <p class="pr-5 text-white-50">Porque «todo mortal es como la hierba, y toda su gloria como la flor del
+              campo; la hierba se seca y la flor se cae, pero la palabra del Señor permanece para siempre». Y esta es la
+              palabra del evangelio que se les ha anunciado a ustedes.” 1 Pedro 1:24-25</p>
+            <p><a href="#"><i class="fa fa-facebook-square mr-1"></i></a><a href="#"><i
+                  class="fa fa-linkedin-square"></i></a></p>
+          </div>
+          <div class="col-lg-3 col-xs-12 links">
+            <h4 class="mt-lg-0 mt-sm-3">UNIVERSIDAD</h4>
+            <ul class="m-0 p-0">
+              <li>Acerca de nosotros</li>
+              <li>Facultades</li>
+              <li>Autoridades</li>
+              <li>50 Aniversario</li>
+              <li>Directorio</li>
+              <li>Centros Universitarios</li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-xs-12 location">
+            <h4 class="mt-lg-0 mt-sm-4">Location</h4>
+            <p>Universidad Mariano Galvez de Guatemala</p>
+            <p class="mb-0"><i class="fa fa-phone mr-3"></i>Sede Cuilapa, Santa Rosa</p>
+            <p class="mb-0"><i class="fa fa-phone mr-3"></i>2233 4567</p>
+            <p><i class="fa fa-envelope-o mr-3"></i>cuilapa@umg.edu.gt</p>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col copyright">
+            <p class=""><small class="text-white-50">© 2019. All Rights Reserved.</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- <script src="../js/js.js"></script>
+  <script>
+    limpiarAutentiacion();
+  </script> -->
+
+
+
+
+</body>
+
+</html>
