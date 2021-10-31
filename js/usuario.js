@@ -1,4 +1,5 @@
-var urlPrincipal = 'https://localhost:44392';
+//var urlPrincipal = 'https://localhost:44392';
+var urlPrincipal = 'https://www.umg-sistemas-cuilapa.somee.com';
 
 class usuario {
     constructor(idUsuario, correo, password, tipoUsuario) {
